@@ -1,7 +1,10 @@
 {
   "name": "express-restful-api",
+  "description": "Blogging RESTful API using MongoDB, NodeJS and Restify.",
   "version": "0.0.1",
   "main": "server.js",
+  "author": "Ignacio Anaya <ignacio.anaya89@gmail.com>",
+  "License": "MIT",
   "dependencies": {
     "restify": "latest",
     "mongoose": "3.8.8"
