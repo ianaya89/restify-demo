@@ -4,9 +4,9 @@ restful-demo
 Blogging RESTful API using MongoDB, NodeJS and Restify.
 
 ## Prerequisites 
-1. *MongodDB* instance running.
+1. **MongodDB** installed and running.
 
-2. Set your mongo as var environment: `process.env.MONGO_URL`
+2. Set your mongo url as var environment: `process.env.MONGO_URL`
 
 ## Install
 `$ npm install`
