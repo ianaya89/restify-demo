@@ -14,22 +14,33 @@ Blogging RESTful API using MongoDB, NodeJS and Restify.
 ## Run
 `$ node server`
 
-
 ## API
-Resource Name |     HTTP Verbs      |     HTTP Methods
 
-  Article         create Article        POST /articles with Payload
-                  update Article        PUT /articles/123 with Payload
-                  delete Article        DELETE /articles/123
-                  view Article          GET /article/123
+### Article
 
-  Comment         create Comment        POST /articles/123/comments with Payload
-                  update Coment         PUT /comments/123 with Payload
-                  delete Comment        DELETE /comments/123
-                  view Comment          GET /comments/123
+1. Create Article  -> `POST /articles with Payload`
 
-  User            create User           POST /users with Payload
-                  update User           PUT /users/123 with Payload
-                  delete User           DELETE /users/123
-                  view User             GET /users/123
+2. Update Article -> `PUT /articles/123 with Payload`
+
+3. Delete Article -> `DELETE /articles/123`
+
+4. View Article -> `GET /article/123`
+
+### Comment
+1. Create Comment -> `POST /articles/123/comments`
+
+2. Update Comment -> `PUT /comments/123 with Payload`
+
+3. Delete Comment -> `DELETE /comments/123`
+
+4. View Comment -> `GET /comments/123`
+
+### User
+1. Create User -> `POST /users`
+
+2. Update User -> `PUT /users/123`
+
+3. Delete User -> `DELETE /users/123`
+
+4. View User -> `GET /users/123`
 
